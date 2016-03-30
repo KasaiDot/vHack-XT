@@ -1,4 +1,4 @@
-ch1, h2, h3 {padding: 0; margin: 0; font-size: 14px;}
+h2, h3 {padding: 0; margin: 0; font-size: 14px;}
 
 @font-face {
 	font-family: united_sans_reg;
@@ -6,9 +6,10 @@ ch1, h2, h3 {padding: 0; margin: 0; font-size: 14px;}
 }
 
 body {
-	background: #304254;
+	background: #305973;
 	position: relative;
-	padding: 0; margin: 0;
+	padding: 0;
+	margin: 0;
 }
 #page-wrap {
 	width: 1024px;
