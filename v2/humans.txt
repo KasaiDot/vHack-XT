@@ -1,0 +1,17 @@
+/* TEAM */
+	Creator: Kasai.
+	Contact: KasaiDot [at] gmail.com
+	Twitter: @KasaiDot
+	Location: Paris, France
+
+/* THANKS */
+	FR Translator: 
+	Twitter: 
+	Location: 
+
+/* SITE */
+	Last update: 2015/03/07
+	Language: English / French
+	Standards: HTML5, CSS3
+	Components: jQuery, jQueryUI
+	Software: Sublime Text 3, FileZilla
