@@ -1,0 +1,63 @@
+/* General link styles */
+.link-vhack {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 5em;
+	line-height: 1;
+	color: #9e9ba4;
+	display: inline-block;
+}
+
+.link--vhack {
+	font-weight: 900;
+	overflow: hidden;
+	line-height: 0.75;
+	color: #fff;
+}
+
+.link--vhack:hover {
+	color: #c5c2b8;
+}
+
+.link--vhack::after {
+	content: '';
+	position: absolute;
+	height: 16px;
+	width: 100%;
+	top: 50%;
+	margin-top: -8px;
+	right: 0;
+	background: #F9F9F9;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--vhack:hover::after {
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+.link--vhack::before {
+	content: attr(data-letters);
+	position: absolute;
+	z-index: 2;
+	overflow: hidden;
+	color: #424242;
+	white-space: nowrap;
+	width: 0%;
+	-webkit-transition: width 0.4s 0.3s;
+	transition: width 0.4s 0.3s;
+}
+
+.link--vhack:hover::before {
+	width: 100%;
+}
+
+@media screen and (max-width: 42em) {
+	.link--vhack { font-size: 3.5em; }
+}
