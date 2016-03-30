@@ -1,4 +1,4 @@
-h1, h2, h3 {padding: 0; margin: 0; font-size: 14px;}
+ch1, h2, h3 {padding: 0; margin: 0; font-size: 14px;}
 
 @font-face {
 	font-family: united_sans_reg;
@@ -99,7 +99,7 @@ padding:5px; border:2px solid #ccc;
 #promo-box h1 {
 	margin-left: 40px;
 	font-size: 28px;
-	color: #304254;
+	color: #A7ADB4;
 	line-height: 36px;
 	width: 550px;
 }
